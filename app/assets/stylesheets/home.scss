@@ -1,0 +1,185 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+    
+   
+   
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    color: #fff;
+    
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-digital-information-technology-binary-world-concept-computer-generated-background-design-picture-image_1270397.jpg"),
+    url("https://agrogalaxy.com.br/wp-content/uploads/2021/08/banner_home_main-desktop.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    
+width: 75%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+color: #fff;
+font-family: "Teko", "sans-serif";
+font-weight: bold;
+
+}
+
+.navi {
+  justify-content: space-between!important;
+  -ms-flex-wrap: nowrap;
+  display: flex!important;
+  margin-top: 15px;
+  text-align: left;
+  -webkit-overflow-scrolling: touch;
+  margin-block-end: 20px ;
+   font-size: 25px;
+   a{
+    font-family: "Teko", "sans-serif";
+font-weight: bold;
+    font-style: inherit;
+    transition: all .3s ease-in-out;
+   }
+
+}
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #343a40!important;
+    border-radius: 0.25rem!important;
+    padding: 3rem!important;
+    color: #fff!important;
+    margin-block-end: 20px ;
+    
+}
+.blog-header  {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 1;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    
+}
+.row {
+    
+justify-content: space-between!important;
+flex-wrap: nowrap!important;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+font-size: 20px;
+
+}
+.row1{
+    text-align: center;
+
+}
+
+.img-home {
+
+}
+ ::after, ::before {
+    box-sizing: border-box;
+}
+ 
+a {
+    text-decoration: none;
+   font-style: normal;
+   font-family: "Teko", "sans-serif";
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+   font-weight: bold;
+  text-align: right;
+   -webkit-text-stroke: 1px rgb(0, 60, 2);
+  
+    
+   
+   }
+   a:hover {
+    color: rgb(12, 123, 10);
+    
+   }
+
+
+    
+.btnl {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #0076dd;
+}
+
+
+.t-banner__btn {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    transform: translateY(-100px);
+    
+}
+
+h2 {
+    color: #fff;
+    font-size: 5.375rem;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+    padding-left: 10%;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-stroke: 1px rgb(9, 125, 5);
+    
+}
+h2 span{
+    display: block;
+    text-transform: uppercase;
+    font-family: "Teko", "sans-serif";
+    font-weight: bold;
+    transform: translateX(-15%);
+}
+.t-banner__main h2 strong {
+    display: block;
+    font-size: 0;
+
+    background-size: 100%;
+    height: 3.875rem;
+    min-width: 41.375rem;
+    transform: translateX(30%);
+    margin-top: 1.25rem;
+    width: 100%;
+}
+p {
+    font-size: 40%;
+    padding-left: 10%;
+    font-family: "Teko", "sans-serif";
+    font-weight: bold;
+    
+}
+strong {
+    font-family: "Teko", "sans-serif";
+    font-weight: bold;
+}
